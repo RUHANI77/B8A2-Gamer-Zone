@@ -1,0 +1,114 @@
+/* .......Shared style......... */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+:root {
+  --secondary-color: #534c64;
+  --tertiary-color: #0b0223;
+}
+.primary-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-text {
+  color: #534c64;
+}
+.btn-primary {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 48px;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  padding: 21px 40px;
+  border: none;
+}
+/* ......Navbar style...... */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 240px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+nav .logo-title {
+  color: var(--tertiary-color);
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-left: 20px;
+}
+nav .logo-title span {
+  color: #ff42a5;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 1.13rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+nav ul li {
+  margin-right: 30px;
+}
+.nav-btn {
+  color: var(--secondary-color);
+  font-size: 1.13rem;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 17px 24px;
+  background: rgba(11, 2, 35, 0.1);
+  border: none;
+}
+/*........ Banner style .........*/
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-contents {
+  background-image: url("./images/Group\ 14.png");
+  width: 658px;
+  height: 700px;
+  padding-top: 148px;
+  padding-left: 244px;
+}
+.banner-img {
+  padding-right: 240px;
+}
+.banner-contents h2 {
+  color: var(--tertiary-color);
+  font-size: 3rem;
+  font-weight: 600;
+}
+.banner-contents h1 {
+  font-size: 5.9rem;
+  font-weight: 800;
+}
+.banner-contents p {
+  color: #534c64;
+  margin: 17px;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.btn-blue {
+  color: white;
+  border-radius: 48px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: #4ec5f7;
+  padding: 21px 40px;
+  margin-left: 15px;
+  border: none;
+}
