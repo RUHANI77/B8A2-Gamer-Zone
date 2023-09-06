@@ -16,6 +16,8 @@
 }
 .gray-text {
   color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 .btn-primary {
   color: white;
@@ -114,6 +116,58 @@ nav ul li {
 .banner-button {
   margin-top: 18px;
 }
+/*........... We are Gamer section style ...............*/
+.we-are-gamer {
+  display: flex;
+  align-items: center;
+  padding: 55px 240px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+}
+.gamer-contents {
+  text-align: end;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.gamer-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.gamer-contents button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.gamer-contents span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+/*...........  Online Games Funny Videos section style...........*/
+.funny-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+}
+.funny-description {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+.funny-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 240px;
+}
+.funny-card {
+  width: 342px;
+  height: 400px;
+  border-radius: 16px;
+}
 /* ........ Responsive Design ......... */
 
 /* Mobile device */
@@ -142,15 +196,63 @@ nav ul li {
     max-width: 100%;
     height: auto;
     padding: 0;
-    margin-top: 90px;
+    margin-top: 50px;
+  }
+  .we-are-gamer,
+  .funny-cards,
+  .funny-videos {
+    flex-direction: column;
+    padding: 0;
+    margin: 20px;
+  }
+  .gamer-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .gamer-contents {
+    text-align: center;
+    padding: 20px;
+  }
+  .funny-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .funny-cards {
+    gap: 90px;
   }
 }
 
 /* Tab Device */
 @media screen and (min-width: 577px) and (max-width: 960px) {
   nav {
+    padding: 20px;
+  }
+  .banner {
+    background-image: none;
+    flex-direction: column-reverse;
+    margin: 20px;
+  }
+  .banner-contents {
+    margin-top: 50px;
+  }
+
+  .banner-img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .we-are-gamer,
+  .funny-cards {
     flex-direction: column;
-    align-items: center;
-    padding: 20px 10px;
+    padding: 0;
+    margin: 20px;
+  }
+  .gamer-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .gamer-contents {
+    text-align: center;
   }
 }
