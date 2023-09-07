@@ -379,7 +379,8 @@ footer .logo-title span {
     margin-top: 50px;
   }
 
-  .banner-img {
+  .banner-img,
+  .careers-img {
     max-width: 100%;
     height: auto;
     padding: 0;
@@ -387,7 +388,8 @@ footer .logo-title span {
   }
   .we-are-gamer,
   .funny-cards,
-  .funny-videos {
+  .funny-videos,
+  .careers {
     flex-direction: column;
     padding: 0;
     margin: 20px;
@@ -496,6 +498,15 @@ footer .logo-title span {
   .settings {
     grid-template-columns: repeat(2, 1fr);
   }
+  .careers {
+    border-radius: 20px;
+  }
+  .careers button {
+    padding: 10px 15px;
+  }
+  .careers-contents {
+    padding: 5px;
+  }
 }
 
 /* Tab Device */
@@ -512,14 +523,16 @@ footer .logo-title span {
     margin-top: 50px;
   }
 
-  .banner-img {
+  .banner-img,
+  .careers-img {
     max-width: 100%;
     height: auto;
     padding: 0;
     margin-top: 50px;
   }
   .we-are-gamer,
-  .funny-cards {
+  .funny-cards,
+  .careers {
     flex-direction: column;
     padding: 0;
     margin: 20px;
@@ -602,5 +615,38 @@ footer .logo-title span {
     width: 50%;
     height: auto;
     margin-right: 5px;
+  }
+  /* ......Footer styling...... */
+  footer {
+    max-width: 1920px;
+    max-height: 636px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .footer-text {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    font-size: 1.25rem;
+    margin-top: 50px;
+  }
+  .footer-icons ul {
+    font-size: 2.6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 50px;
+    gap: 15px;
+  }
+  .settings {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .careers {
+    border-radius: 20px;
+  }
+  .careers button {
+    padding: 10px 15px;
+  }
+  .careers-contents {
+    padding: 15px;
   }
 }
