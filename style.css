@@ -31,6 +31,26 @@
   padding: 21px 40px;
   border: none;
 }
+.game-link-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  background: #fff;
+  padding: 10px 20px;
+  color: #0b0223;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.game-link-btn:hover {
+  color: #ff42a5;
+  border: 2px solid #ff42a5;
+}
+.game-link-btn img {
+  margin-right: 10px;
+}
 /* ......Navbar style...... */
 nav {
   display: flex;
@@ -230,6 +250,75 @@ nav ul li {
   bottom: 300px;
   margin-left: 500px;
 }
+/* All Games Links Section */
+.all-games-link {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 28px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+  max-width: 1920px;
+  max-height: 427px;
+  padding: 120px 240px;
+}
+/* ......Footer styling...... */
+footer {
+  max-width: 1920px;
+  max-height: 636px;
+  background: #0b0223;
+  padding: 120px 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .logo-title {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-left: 20px;
+}
+footer .logo-title span {
+  color: #ff42a5;
+}
+.footer-text {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.footer-icons ul {
+  font-size: 2.6rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  margin-top: 66px;
+  gap: 40px;
+}
+.footer-icons li {
+  list-style: none;
+}
+.footer-icons li a {
+  color: white;
+}
+.settings {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 28px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
 /* ........ Responsive Design ......... */
 
 /* Mobile device */
@@ -327,6 +416,50 @@ nav ul li {
     bottom: 150px;
     margin-left: 230px;
   }
+  /* All game link */
+  .all-games-link {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  .game-link-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    padding: 3px 45px 3px 5px;
+    font-weight: 600;
+  }
+  .game-link-btn img {
+    width: 50%;
+    height: auto;
+    margin-right: 5px;
+  }
+  /* ......Footer styling...... */
+  footer {
+    max-width: 1920px;
+    max-height: 636px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .footer-text {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    font-size: 1.25rem;
+    margin-top: 50px;
+  }
+  .footer-icons ul {
+    font-size: 2.6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 50px;
+    gap: 15px;
+  }
+  .settings {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Tab Device */
@@ -413,5 +546,25 @@ nav ul li {
     position: relative;
     bottom: 190px;
     margin-left: 370px;
+  }
+  /* All game link */
+  .all-games-link {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  .game-link-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    padding: 3px 45px 3px 5px;
+    font-weight: 600;
+  }
+  .game-link-btn img {
+    width: 50%;
+    height: auto;
+    margin-right: 5px;
   }
 }
