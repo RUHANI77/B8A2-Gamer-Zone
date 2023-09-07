@@ -106,7 +106,7 @@ nav ul li {
   margin: 0 auto;
 }
 .banner-img {
-  padding-right: 240px;
+  padding-right: 200px;
 }
 .banner-contents h2 {
   color: var(--tertiary-color);
@@ -140,7 +140,7 @@ nav ul li {
 .we-are-gamer {
   display: flex;
   align-items: center;
-  padding: 55px 240px;
+  padding: 55px 200px;
   background: linear-gradient(
     90deg,
     rgba(255, 66, 165, 0.03) 13.13%,
@@ -184,7 +184,7 @@ nav ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 240px;
+  margin: 20px 200px;
 }
 .funny-card {
   width: 342px;
@@ -196,7 +196,7 @@ nav ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 170px 240px;
+  margin: 170px 200px;
   gap: 120px;
 }
 .play-contents {
@@ -233,7 +233,7 @@ nav ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 240px;
+  margin: 0px 200px;
   gap: 120px;
 }
 .play-contents-online {
