@@ -184,7 +184,7 @@ nav ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 200px;
+  margin: 20px 170px;
 }
 .funny-card {
   width: 342px;
@@ -197,10 +197,10 @@ nav ul li {
   justify-content: space-between;
   align-items: center;
   margin: 170px 200px;
-  gap: 120px;
+  gap: 100px;
 }
 .play-contents {
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 380px;
   text-align: right;
 }
@@ -234,10 +234,10 @@ nav ul li {
   justify-content: space-between;
   align-items: center;
   margin: 0px 200px;
-  gap: 120px;
+  gap: 100px;
 }
 .play-contents-online {
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 380px;
   text-align: start;
 }
